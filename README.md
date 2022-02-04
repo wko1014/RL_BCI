@@ -1,5 +1,5 @@
 ## A Novel RL-Assisted Deep Learning Framework for Task-Informative Signals Selection and Classification for Spontaneous BCIs
-<p align="center"><img width="90%" src="files/framework.png" /></p>
+<p align="center"><img width="100%" src="files/framework.png" /></p>
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A Novel RL-Assisted Deep Learning Framework for Task-Informative Signals Selection and Classification for Spontaneous BCIs**<br>
