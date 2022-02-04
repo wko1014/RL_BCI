@@ -1,5 +1,5 @@
 ## A Novel RL-Assisted Deep Learning Framework for Task-Informative Signals Selection and Classification for Spontaneous BCIs
-<p align="center"><img width="30%" src="files/framework.png" /></p>
+<p align="center"><img width="90%" src="files/framework.png" /></p>
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A Novel RL-Assisted Deep Learning Framework for Task-Informative Signals Selection and Classification for Spontaneous BCIs**<br>
@@ -7,33 +7,31 @@ This repository provides a TensorFlow implementation of the following paper:
 > (<sup>1</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>2</sup>Department of Artificial Intelligence, Korea University) <br/>
 > [[Official version]](https://ieeexplore.ieee.org/abstract/document/9293035)
-> Published in IEEE Transactions on Industrial Informatics
+> Published in IEEE Transactions on Industrial Informatics (2020-JCR-IF: 10.215, Engineering-Industrial: 1/49)
 > 
-> **Abstract:** *Estimating driver fatigue is an important issue for traffic safety and user-centered brain–computer interface. In this paper, based on differential entropy (DE) extracted from electroencephalography (EEG) signals, we develop a novel deep convolutional neural network to detect driver drowsiness. By exploiting DE of EEG samples, the proposed network effectively extracts class-discriminative deep and hierarchical features. Then, a densely-connected layer is used for the final decision making to identify driver condition. To demonstrate the validity of our proposed method, we conduct classification and regression experiments using publicly available SEED-VIG dataset. Further, we also compare the proposed network to other competitive state-of-the-art methods with an appropriate statistical analysis. Furthermore, we inspect the real-world usability of our method by visualizing a change in the probability of driver status and confusion matrices.*
+> **Abstract:** *In this article, we formulate the problem of estimating and selecting task-relevant temporal signal segments from a single electroencephalogram (EEG) trial in the form of a Markov decision process and propose a novel reinforcement-learning mechanism that can be combined with the existing deep-learning-based brain–computer interface methods. To be specific, we devise an actor–critic network such that an agent can determine which timepoints need to be used (informative) or discarded (uninformative) in composing the intention-related features in a given trial, and thus enhancing the intention identification performance. To validate the effectiveness of our proposed method, we conduct experiments with a publicly available big motor imagery (MI) dataset and apply our novel mechanism to various recent deep-learning architectures designed for MI classification. Based on the exhaustive experiments, we observe that our proposed method helped achieve statistically significant improvements in performance.*
 
 ## Dependencies
 * [Python 3.6+](https://www.continuum.io/downloads)
 * [TensorFlow 2.0.0+](https://www.tensorflow.org/)
 
 ## Downloading datasets
-To download SEED-VIG dataset
-* https://bcmi.sjtu.edu.cn/~seed/seed-vig.html
-
-## Usage
-`network.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `experiment.py` contains the main experimental functions.
+To download KU-MI dataset
+* http://gigadb.org/dataset/100542
 
 ## Citation
-If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9061668):
+If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9293035):
 ```
-@inproceedings{ko2020vignet,
-  title={Vignet: A deep convolutional neural network for eeg-based driver vigilance estimation},
-  author={Ko, Wonjun and Oh, Kwanseok and Jeon, Eunjin and Suk, Heung-Il},
-  booktitle={2020 8th International Winter Conference on Brain-Computer Interface (BCI)},
-  pages={1--3},
-  year={2020},
-  organization={IEEE}
-}
-```
+@article{ko2020novel,
+  title={A novel {RL}-assisted deep learning framework for task-informative signals selection and classification for spontaneous {BCI}s},
+  author={Ko, Wonjun and Jeon, Eunjin and Suk, Heung-Il},
+  journal={IEEE Transactions on Industrial Informatics},
+  volume={18},
+  number={3},
+  pages={1873--1882},
+  year={2022},
+  publisher={IEEE}
+}```
 
 ## Acknowledgements
-This work was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (No. 2017-0-00451; Development of BCI based Brain and Cognitive Computing Technology for Recognizing User’s Intentions using Deep Learning).
+This work was supported by Institute for Information & Communications Technology Promotion (IITP) grant funded by the Korea government under Grant 2017-0-00451 (Development of BCI based Brain and Cognitive Computing Technology for Recognizing User’s Intentions using Deep Learning) and Grant 2019-0-00079 (Department of Artificial Intelligence, Korea University).
