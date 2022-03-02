@@ -3,7 +3,7 @@
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A Novel RL-Assisted Deep Learning Framework for Task-Informative Signals Selection and Classification for Spontaneous BCIs**<br>
-> [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Eunjin Jeon](https://scholar.google.com/citations?user=U_hg5B0AAAAJ&hl=ko)<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1</sup>, [Eunjin Jeon](https://scholar.google.com/citations?user=U_hg5B0AAAAJ&hl=ko)<sup>1</sup>, and [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>2</sup>Department of Artificial Intelligence, Korea University) <br/>
 > Official Version: https://ieeexplore.ieee.org/abstract/document/9293035 <br/>
