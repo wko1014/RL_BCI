@@ -20,7 +20,7 @@ To download KU-MI dataset
 * http://gigadb.org/dataset/100542
 
 ## Citation
-If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9293035):
+If you find this work useful for your research, please cite our [journal paper](https://ieeexplore.ieee.org/abstract/document/9293035):
 ```
 @article{ko2020novel,
   title={A novel {RL}-assisted deep learning framework for task-informative signals selection and classification for spontaneous {BCI}s},
